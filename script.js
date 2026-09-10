@@ -1,0 +1,1 @@
+function tick(){const el=document.getElementById('clock');if(el)el.textContent=new Date().toLocaleTimeString('en-GB')}setInterval(tick,1000);tick();
